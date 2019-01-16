@@ -24,8 +24,8 @@ class Migration(migrations.Migration):
                 ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='refresh_token', to=settings.AUTH_USER_MODEL, verbose_name='user')),
             ],
             options={
-                'verbose_name': 'Refresh token',
-                'verbose_name_plural': 'Refresh tokens',
+                'verbose_name': 'refresh token',
+                'verbose_name_plural': 'refresh tokens',
                 'abstract': False,
             },
         ),
